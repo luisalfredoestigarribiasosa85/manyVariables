@@ -1,0 +1,11 @@
+let name = "Luis";
+let lastName = "Estigarribia";
+let student = `${name} ${lastName}`;
+let studentUpper = student.toUpperCase();
+let studentLower = student.toLowerCase();
+let studentQuantity = student.length;
+let firstLetterOfStudent = student[0];
+let lastLetterOfStudent = student[16];
+let noSpaces = student.replace(/\s/g, "");
+let bool = student.includes(name);
+console.log(bool);
